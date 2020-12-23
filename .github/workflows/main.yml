@@ -20,8 +20,8 @@ jobs:
         with:
           dotnet-version: 3.1.101
       
-      - name: Build with dotnet
+      - name: Build
         run: dotnet build --configuration Release
-        
-      - name: sonar-scanner
-        uses: Warchant/setup-sonar-scanner@v1
+      
+      - name: Test
+        run: dotnet test --configuration Release
