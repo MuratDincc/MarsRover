@@ -33,6 +33,7 @@ Input and Output
     5 5
     1 2 N 
     LMLMLMLMM 
+    5 5
     3 3 E 
     MMRMMRMRRM  
 
